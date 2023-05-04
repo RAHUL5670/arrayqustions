@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        // 'use strict'
+
+        // function greetings(name){
+        //     console.log('Hello '+ name + '!')
+        // }
+
+        // greetings('Rahul')
+
+        // function addNums(a,b){
+        //         document.write(a+b)
+        //     //  console.log(addNums(10,50))
+
+        // }
+        // addNums(50,250);
+
+        // let fun =(num1,num2)=>{
+        //     return num1*num2
+
+        // }
+        // console.log(fun(10,50))
+        // console.log (add(10,10))
+
+        //    const funExp=()=>{
+        //     document.write("hello Everyone")
+        //    }
+        //    funExp()
+
+        // function fullName(a,b){
+        //     document.write('rahul');
+        //     // return a ;
+        //     // document.write('rahul','mundargi')
+        // }
+
+        // document.write(fullName("Vivek","Bitcode"))
+        // var fn = fullName('Rahul','Mundargi');
+        // document.write(fn)
+
+
+        // function sum(a,b){
+        //     document.write(a+b)
+        // }
+        // sum(500,500)
+
+        // function fullName(lname,fname){
+        //     document.write(lname+fname);
+        // }
+        // fullName('Rahul','Mundargi')
+
+        // function add (c,d){
+        //    document.write(c*d)
+        // }
+        // add(25,25)
+        // add(10,20)
+
+        // return statement 
+
+        // function fullName(fname,lname){
+        //      var a = fname+lname;
+        //      return a
+
+        // }
+        //   var fn = fullName('Vishal','Chogule') 
+        //   document.write(fn)
+
+        // let  sum = (a,b)=>{
+        //        document.write(a*b)
+        // //    return c
+
+        //   }
+        //   var s = sum (10,20)
+        // sum(10,10)
+
+        // let first='adam';
+        //   let second=first
+        //   console.log("first person "+ first);
+        //   console.log("second person "+ second);
+        //   first="steve"
+        //   console.log("third person "+first);
+
+        //   let person={name:"roben",
+        // age:24}
+
+
+
+        // let person1=person;
+
+        // console.log(person);
+        // console.log(person1)
+
+        // hoistVarible=33;
+        // console.log(hoistVarible);
+        // var hoistVarible
+
+        // hostedFunction()
+        // function hostedFunction(){
+        //     console.log('Hello World ')
+        // }
+        // x=25;
+        // console.log(x);
+
+        // let array=[10,320,45,65,42,12,3,1]
+        // console.log (array.slice(2,5))
+        // console.log(array)
+        // console.log(array.splice(2,0,"hh"))
+
+        // var colors =["Blue","Red","Black","Cyan"];
+        // colors.splice(0,0,"Green")
+        // console.log(colors);
+        // console.log(indexOf())
+
+        //var str = "Heloo World";
+        // console.log(str.indexOf('d'))
+        // console.log(str);
+          
+        //str.split('!')
+
+        // rest paramenters 
+    //     function sum(...args){
+    //         console.log(arguments)
+    //         let sum=0;
+    //         for(let i in args){
+    //             sum+=args[i]
+                
+    //         }
+    //         document.write(sum)
+    //     }
+    //   sum(10,10,20)
+
+      
+
+    //   var data=[10,20,30,70];
+
+    //   function sum(...args){
+    //     let sum=0;
+    //     for(let i in args){
+    //         sum+=args[i]
+    //     }
+    //     document.write(sum)
+    //   }
+    //   sum(...data);
+
+    //   var arr1=[10,20,30,40]
+    //   var arr3=[10,20,30,40]
+    //   var arr4=[10,20,30,40]
+    //   var arr2=[...arr3,...arr4,...arr1,50,60,70,80,90]
+    // //   var arr3=[...arr1,...arr2]
+    // //   console.log(arr3)
+    //   console.log(arr2)
+
+    // let user =["Yhaoo Baba",25,98754687]
+    // let name=user[0];
+    // let age=user[1];
+    // let number=user[2]
+    
+//    let [name,...args]=user;
+//    console.log(args)
+    
+    //   async function example(){
+    //     return "Hello Word"
+    //   }
+    //   console.log(example())
+
+    // async function example()
+    // {
+    //     console.log("Hello 1");
+    //    await console.log("Hello 2")
+    //     console.log("Hello 3")
+    // }
+    // example();
+    // console.log("Hello 4");
+    // console.log("Hello 5");
+
+    // Fetch cslling API 
+
+// var a= "http://jsonplaceholder.typicode.com/posts"
+// console.log(a);
+         
+// async function example(){
+//     const data=await fetch("http://jsonplaceholder.typicode.com/post")
+
+//     const posts=await data.json();
+
+//     return posts;
+// }
+
+// example().then((result)=>{
+//     console.log(result);
+// }).catch((msg)=>{
+//     console.log(msg)
+// })
+
+//find the sum of array
+// const array=[10,15,20,45,65]
+
+// function sum(array){
+//     let sum=0;
+//     for(let i=0; i<array.length;i++){
+//        sum=sum+array[i]
+//     }
+//  return sum
+// }
+// console.log(sum(array));
+
+// const arr1=[100,200,300,400]
+
+// function findSum(arr1){
+//     findSum=0;
+//     for(let i=0;i<arr1.length;i++){
+//         findSum=findSum+arr1[i]
+//     }
+//     return findSum
+// }
+
+// console.log(findSum(arr1))
+
+// find the sum of arrya with reduce method 
+// const sum=arr1.reduce(function(acc,curr){
+//     acc=acc+curr;
+//     return acc;
+// },0);
+// console.log(sum);
+
+// find the maxmum value in array 
+// const arr=[10,23,45,69,784,5];
+
+// function findMax(arr){
+//     let max =0;
+//     for(let i=0;i<arr.length;i++){
+//     if(arr[i]>max){
+//         max=arr[i]
+//     }
+//     }
+//     return max;
+// }
+// console.log(findMax(arr));
+
+// find minimum value in array 
+
+
+
+//  find the mxamum and minimum value 
+// let array=[10,23,45,6,89,7,13,] 
+// let max = array[0], min = array[0];
+// for (let i = 0; i < array.length; i++) {
+//  if (array[i] > max){ 
+//     max = array[i]; 
+// }
+//  if (array[i] < min) {
+//      min = array[i]; }
+// }
+// console.log("max = " + max);
+// console.log("min = " + min);
+
+// var data = [44,15,77,153, 412]
+//      var sum = 0;
+//      for (let i = 0; i < data.length; i++) {
+//         sum += data[i];
+//     }
+     
+//     console.log("Sum is " + sum)
+
+//     var arr = [4, 8, 7, 13, 12]
+//      var sum = 0;
+//      for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+     
+//     console.log("Sum is " + sum);
+
+//     var data2=[10,20,30,40,50,60];
+//     var additon=0;
+//     for(let i = 0; i<data2.length;i++){
+//         additon+=data2[i]
+//     }
+// console.log("the sumof new arry "+ additon);
+
+// reverse the the string 
+// var str="Bitcode";
+// var leng=str.length
+// // console.log(leng);
+// var newStr="";
+
+// for(let i=leng;i>=0;i--){
+//     newStr+=str.charAt(i)
+// }
+
+// console.log(newStr);
+
+// find max min value from the array 
+
+
+
+const array = [12,45,78,56,89,400];
+ 
+// Setting a number of the given array as
+// value of max and min we choose 0th index
+// element as atleast one element should be
+// present in the given array
+ 
+// let max = array[0]  
+// let min =  array[0];
+// for (let i = 0; i < array.length; i++) {
+  // If we get any element in array greater
+    // than max, max takes value of that
+    // larger number
+    // if (array[i] > max) { 
+    //     max = array[i]; 
+    // }
+ 
+    // If we get any element in array smaller
+    // than min, min takes value of that
+    // smaller number
+//     if (array[i] < min) {
+//          min = array[i]; 
+//         }
+// }
+// console.log("max = " + max);
+// console.log("min = " + min);
+
+
+let data=[10,203,56,489,78,784];
+
+let max=data[0];
+let min=data[0];
+
+for(let i=0;i<data.length;i++){
+    if(data[i]>max){
+        max=data[i]
+    }
+    if(data[i]<min){
+        min=data[i]
+    }
+}
+console.log("maximum value from the array " + max);
+console.log("minimum value from the array " + min)
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
